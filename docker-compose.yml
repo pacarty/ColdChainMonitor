@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: coldchainmonitor
+      POSTGRES_USER: coldchain
+      POSTGRES_PASSWORD: devpassword
+    ports:
+      - "5432:5432"
+    volumes:
+      - coldchain_pgdata:/var/lib/postgresql/data
+volumes:
+  coldchain_pgdata:

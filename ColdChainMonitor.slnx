@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ColdChainMonitor.Api/ColdChainMonitor.Api.csproj" />
+    <Project Path="src/ColdChainMonitor.Application/ColdChainMonitor.Application.csproj" />
+    <Project Path="src/ColdChainMonitor.DeviceSimulator/ColdChainMonitor.DeviceSimulator.csproj" />
+    <Project Path="src/ColdChainMonitor.Domain/ColdChainMonitor.Domain.csproj" />
+    <Project Path="src/ColdChainMonitor.Infrastructure/ColdChainMonitor.Infrastructure.csproj" />
+    <Project Path="src/ColdChainMonitor.Processor/ColdChainMonitor.Processor.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ColdChainMonitor.Application.Tests/ColdChainMonitor.Application.Tests.csproj" />
+  </Folder>
+</Solution>

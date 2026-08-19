@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-ColdChainMonitor.Processor-dbcbe97d-4159-4de0-8c97-5703e26d5fba</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Messaging.ServiceBus" Version="7.20.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.10" />
+    <PackageReference Include="Polly" Version="8.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ColdChainMonitor.Application\ColdChainMonitor.Application.csproj" />
+    <ProjectReference Include="..\ColdChainMonitor.Infrastructure\ColdChainMonitor.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
